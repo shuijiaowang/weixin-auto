@@ -415,6 +415,7 @@
         let treeData = [];
         let selectedNode = null;
         let windowOffset = { x: 0, y: 0 };
+        let visualRects = new Map(); // index -> { left, top, width, height, depth, area }
 
         document.getElementById('fileInput').addEventListener('change', function(e) {
             const file = e.target.files[0];
@@ -527,6 +528,7 @@
             container.style.height = windowRect.height + 'px';
             
             container.innerHTML = '';
+            visualRects = new Map();
             
             console.log('Window rectangle:', windowRect);
             console.log('Window offset:', windowOffset);
@@ -549,7 +551,17 @@
                 block.style.width = node.position.width + 'px';
                 block.style.height = node.position.height + 'px';
                 // 深度越深，层级越高，确保内层控件可以被点击
-                block.style.zIndex = 1000 + node.depth;
+                const baseZ = 1000 + (node.depth || 0);
+                block.style.zIndex = baseZ;
+                block.dataset.baseZ = String(baseZ);
+                visualRects.set(index, {
+                    left: x,
+                    top: y,
+                    width: node.position.width,
+                    height: node.position.height,
+                    depth: node.depth || 0,
+                    area: node.position.width * node.position.height
+                });
                 
                 if (node.name && node.name !== '(无名称)' && node.position.width > 30 && node.position.height > 15) {
                     const label = document.createElement('div');
@@ -562,11 +574,32 @@
                 // 添加点击事件，阻止冒泡
                 block.onclick = function(e) {
                     e.stopPropagation();
-                    selectNode(index);
+                    const bestIndex = pickBestNodeAtPoint(e.clientX, e.clientY);
+                    selectNode(bestIndex ?? index);
                 };
                 
                 container.appendChild(block);
             });
+        }
+
+        function pickBestNodeAtPoint(clientX, clientY) {
+            const container = document.getElementById('visualContainer');
+            const rect = container.getBoundingClientRect();
+            const x = clientX - rect.left;
+            const y = clientY - rect.top;
+
+            let best = null; // { index, depth, area }
+            for (const [index, r] of visualRects.entries()) {
+                if (x < r.left || y < r.top || x > r.left + r.width || y > r.top + r.height) continue;
+                if (
+                    !best ||
+                    r.depth > best.depth ||
+                    (r.depth === best.depth && r.area < best.area)
+                ) {
+                    best = { index, depth: r.depth, area: r.area };
+                }
+            }
+            return best?.index ?? null;
         }
 
         function selectNode(index) {
@@ -581,7 +614,7 @@
             document.querySelectorAll('.control-block.selected').forEach(el => {
                 el.classList.remove('selected');
                 el.style.filter = '';
-                el.style.zIndex = '';
+                el.style.zIndex = el.dataset.baseZ || '';
             });
             
             // 选中树节点

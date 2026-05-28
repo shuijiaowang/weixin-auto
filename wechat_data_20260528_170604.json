@@ -1,0 +1,3525 @@
+{
+  "export_time": "2026-05-28 17:06:04",
+  "window_info": {
+    "title": "微信",
+    "class": "mmui::MainWindow",
+    "rectangle": {
+      "left": 977,
+      "top": 261,
+      "width": 1135,
+      "height": 798
+    }
+  },
+  "control_tree": [
+    {
+      "depth": 0,
+      "control_type": "WindowControl",
+      "name": "微信",
+      "automation_id": "",
+      "class_name": "mmui::MainWindow",
+      "position": {
+        "x": 977,
+        "y": 261,
+        "width": 1135,
+        "height": 798
+      },
+      "value": ""
+    },
+    {
+      "depth": 1,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "QWidget",
+      "position": {
+        "x": 977,
+        "y": 261,
+        "width": 1135,
+        "height": 798
+      },
+      "value": ""
+    },
+    {
+      "depth": 2,
+      "control_type": "CustomControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "QStackedWidget",
+      "position": {
+        "x": 977,
+        "y": 261,
+        "width": 1135,
+        "height": 798
+      },
+      "value": ""
+    },
+    {
+      "depth": 3,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "MainView",
+      "class_name": "mmui::MainView",
+      "position": {
+        "x": 977,
+        "y": 261,
+        "width": 1135,
+        "height": 798
+      },
+      "value": ""
+    },
+    {
+      "depth": 4,
+      "control_type": "ToolBarControl",
+      "name": "导航",
+      "automation_id": "MainView.main_tabbar",
+      "class_name": "mmui::MainTabBar",
+      "position": {
+        "x": 977,
+        "y": 261,
+        "width": 75,
+        "height": 798
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "微信",
+      "automation_id": "",
+      "class_name": "mmui::XTabBarItem",
+      "position": {
+        "x": 977,
+        "y": 381,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 388,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 388,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XBadge",
+      "position": {
+        "x": 1018,
+        "y": 383,
+        "width": 21,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "通讯录",
+      "automation_id": "",
+      "class_name": "mmui::XTabBarItem",
+      "position": {
+        "x": 977,
+        "y": 441,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 448,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 448,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XBadge",
+      "position": {
+        "x": 1018,
+        "y": 443,
+        "width": 21,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "收藏",
+      "automation_id": "",
+      "class_name": "mmui::XTabBarItem",
+      "position": {
+        "x": 977,
+        "y": 501,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 508,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 508,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XBadge",
+      "position": {
+        "x": 1018,
+        "y": 503,
+        "width": 21,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "朋友圈",
+      "automation_id": "",
+      "class_name": "mmui::XTabBarItem",
+      "position": {
+        "x": 977,
+        "y": 561,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 568,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 568,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XBadge",
+      "position": {
+        "x": 1018,
+        "y": 563,
+        "width": 21,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "视频号",
+      "automation_id": "",
+      "class_name": "mmui::XTabBarItem",
+      "position": {
+        "x": 977,
+        "y": 621,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 628,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 628,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XBadge",
+      "position": {
+        "x": 1018,
+        "y": 623,
+        "width": 21,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "搜一搜",
+      "automation_id": "",
+      "class_name": "mmui::XTabBarItem",
+      "position": {
+        "x": 977,
+        "y": 681,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 688,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 688,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XBadge",
+      "position": {
+        "x": 1018,
+        "y": 683,
+        "width": 21,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "小程序面板",
+      "automation_id": "",
+      "class_name": "mmui::XTabBarItem",
+      "position": {
+        "x": 977,
+        "y": 741,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 748,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 748,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XBadge",
+      "position": {
+        "x": 1018,
+        "y": 743,
+        "width": 21,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "手机",
+      "automation_id": "MainView.main_tabbar.tabbar_handoff",
+      "class_name": "mmui::HandoffTabbarView",
+      "position": {
+        "x": 977,
+        "y": 935,
+        "width": 75,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "ButtonControl",
+      "name": "手机",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 992,
+        "y": 935,
+        "width": 45,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 942,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 8,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 942,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "更多",
+      "automation_id": "MainView.main_tabbar.tabbar_setting",
+      "class_name": "mmui::MainTabBarSettingView",
+      "position": {
+        "x": 992,
+        "y": 995,
+        "width": 45,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "ButtonControl",
+      "name": "更多",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 992,
+        "y": 995,
+        "width": 45,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1000,
+        "y": 1002,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 8,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1000,
+        "y": 1002,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 4,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "MainView.main_window_corner_view",
+      "class_name": "QWidget",
+      "position": {
+        "x": 1052,
+        "y": 261,
+        "width": 1060,
+        "height": 798
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "MainView.main_window_corner_view.MainView",
+      "class_name": "mmui::MainView",
+      "position": {
+        "x": 1052,
+        "y": 301,
+        "width": 1055,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 6,
+      "control_type": "CustomControl",
+      "name": "(无名称)",
+      "automation_id": "MainView.main_window_corner_view.MainView.main_window_main_splitter_view",
+      "class_name": "mmui::XSplitterView",
+      "position": {
+        "x": 1052,
+        "y": 301,
+        "width": 1055,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 7,
+      "control_type": "CustomControl",
+      "name": "(无名称)",
+      "automation_id": "MainView.main_window_corner_view.MainView.main_window_main_splitter_view.main_window_sub_splitter_view",
+      "class_name": "mmui::XSplitterView",
+      "position": {
+        "x": 1052,
+        "y": 301,
+        "width": 1055,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 8,
+      "control_type": "CustomControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XStackedWidget",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 9,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatDetailView",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 10,
+      "control_type": "CustomControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XSplitterView",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 11,
+      "control_type": "CustomControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XStackedWidget",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 12,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "chat_message_page",
+      "class_name": "mmui::ChatMessagePage",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 13,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatTitleBarMasterView",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 60
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatTitleBarChatSingleView",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 60
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1353,
+        "y": 301,
+        "width": 753,
+        "height": 58
+      },
+      "value": ""
+    },
+    {
+      "depth": 16,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1373,
+        "y": 301,
+        "width": 713,
+        "height": 53
+      },
+      "value": ""
+    },
+    {
+      "depth": 17,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1373,
+        "y": 301,
+        "width": 713,
+        "height": 53
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1373,
+        "y": 301,
+        "width": 541,
+        "height": 53
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.elasticWidget",
+      "class_name": "QWidget",
+      "position": {
+        "x": 1373,
+        "y": 301,
+        "width": 541,
+        "height": 5
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1373,
+        "y": 306,
+        "width": 541,
+        "height": 48
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.elasticWidget",
+      "class_name": "QWidget",
+      "position": {
+        "x": 1373,
+        "y": 306,
+        "width": 541,
+        "height": 10
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 1373,
+        "y": 316,
+        "width": 541,
+        "height": 28
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "TextControl",
+      "name": "拼好饭福利官",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.big_title_line_h_view",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1373,
+        "y": 317,
+        "width": 105,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 22,
+      "control_type": "TextControl",
+      "name": "拼好饭福利官",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.big_title_line_h_view.current_chat_name_label",
+      "class_name": "mmui::XTextView",
+      "position": {
+        "x": 1373,
+        "y": 317,
+        "width": 105,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.typing_status_view",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.openim_name_view",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1478,
+        "y": 317,
+        "width": 101,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 22,
+      "control_type": "TextControl",
+      "name": "@美团拼好饭",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.openim_name_view.current_chat_openim_name",
+      "class_name": "mmui::XTextView",
+      "position": {
+        "x": 1488,
+        "y": 318,
+        "width": 91,
+        "height": 21
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.elasticWidget",
+      "class_name": "QWidget",
+      "position": {
+        "x": 1373,
+        "y": 345,
+        "width": 541,
+        "height": 10
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.right_v_view",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1915,
+        "y": 301,
+        "width": 172,
+        "height": 53
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.right_v_view.right_content_h_view",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1915,
+        "y": 306,
+        "width": 172,
+        "height": 48
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.right_v_view.right_content_h_view.right_content_v_view",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1945,
+        "y": 306,
+        "width": 142,
+        "height": 48
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "content_view.top_content_view.title_h_view.right_v_view.right_content_h_view.right_content_v_view.right_ui_",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 1945,
+        "y": 306,
+        "width": 142,
+        "height": 48
+      },
+      "value": ""
+    },
+    {
+      "depth": 22,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatlogMigrateView",
+      "position": {
+        "x": 1945,
+        "y": 312,
+        "width": 62,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 23,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1945,
+        "y": 312,
+        "width": 52,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 24,
+      "control_type": "ButtonControl",
+      "name": "聊天记录",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1945,
+        "y": 312,
+        "width": 32,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 25,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1950,
+        "y": 317,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 26,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1950,
+        "y": 317,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 24,
+      "control_type": "ButtonControl",
+      "name": "从手机导入聊天记录",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1977,
+        "y": 312,
+        "width": 20,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 25,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1980,
+        "y": 317,
+        "width": 12,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 26,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1980,
+        "y": 317,
+        "width": 12,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 22,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatVoIPView",
+      "position": {
+        "x": 2007,
+        "y": 312,
+        "width": 45,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 23,
+      "control_type": "ButtonControl",
+      "name": "语音通话",
+      "automation_id": "voip_button",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 2007,
+        "y": 312,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 24,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 2012,
+        "y": 317,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 25,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 2012,
+        "y": 317,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 22,
+      "control_type": "ButtonControl",
+      "name": "聊天信息",
+      "automation_id": "content_view.top_content_view.title_h_view.right_v_view.right_content_h_view.right_content_v_view.right_ui_.more_button",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 2052,
+        "y": 312,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 23,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 2057,
+        "y": 317,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 24,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 2057,
+        "y": 317,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 16,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XDivider",
+      "position": {
+        "x": 1353,
+        "y": 360,
+        "width": 753,
+        "height": 1
+      },
+      "value": ""
+    },
+    {
+      "depth": 13,
+      "control_type": "CustomControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XSplitterView",
+      "position": {
+        "x": 1353,
+        "y": 361,
+        "width": 753,
+        "height": 693
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 1353,
+        "y": 943,
+        "width": 753,
+        "height": 111
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatInputView",
+      "position": {
+        "x": 1353,
+        "y": 943,
+        "width": 753,
+        "height": 111
+      },
+      "value": ""
+    },
+    {
+      "depth": 16,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1353,
+        "y": 943,
+        "width": 753,
+        "height": 111
+      },
+      "value": ""
+    },
+    {
+      "depth": 17,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1363,
+        "y": 945,
+        "width": 733,
+        "height": 45
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "EditControl",
+      "name": "拼好饭福利官 按住 Ctrl + Win 使用语音输入文字",
+      "automation_id": "chat_input_field",
+      "class_name": "mmui::ChatInputField",
+      "position": {
+        "x": 1378,
+        "y": 955,
+        "width": 708,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "chat_input_field.qt_scrollarea_viewport",
+      "class_name": "QWidget",
+      "position": {
+        "x": 1378,
+        "y": 955,
+        "width": 708,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 17,
+      "control_type": "ToolBarControl",
+      "name": "(无名称)",
+      "automation_id": "tool_bar_accessible",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1363,
+        "y": 990,
+        "width": 733,
+        "height": 55
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "ButtonControl",
+      "name": "发送表情(Alt+E)",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1373,
+        "y": 1000,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1378,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1378,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "ButtonControl",
+      "name": "发送收藏",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1418,
+        "y": 1000,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1423,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1423,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "ButtonControl",
+      "name": "发送文件",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1463,
+        "y": 1000,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1468,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1468,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1508,
+        "y": 1000,
+        "width": 52,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "ButtonControl",
+      "name": "截图(Alt+A)",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1508,
+        "y": 1000,
+        "width": 32,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1513,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1513,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "ButtonControl",
+      "name": "隐藏窗口截图",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1541,
+        "y": 1000,
+        "width": 20,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1543,
+        "y": 1005,
+        "width": 12,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1543,
+        "y": 1005,
+        "width": 12,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "ButtonControl",
+      "name": "语音输入文字(按住Ctrl+Win)",
+      "automation_id": "tool_bar_accessible.button",
+      "class_name": "mmui::VoiceInputView",
+      "position": {
+        "x": 1571,
+        "y": 1000,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "ButtonControl",
+      "name": "语音输入文字(按住Ctrl+Win)",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1571,
+        "y": 1000,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1576,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1576,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatInputSendView",
+      "position": {
+        "x": 1943,
+        "y": 992,
+        "width": 138,
+        "height": 50
+      },
+      "value": ""
+    },
+    {
+      "depth": 19,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1943,
+        "y": 992,
+        "width": 138,
+        "height": 50
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "ButtonControl",
+      "name": "发语音 ( 按住右 Alt )",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1943,
+        "y": 1000,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1948,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 22,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1948,
+        "y": 1005,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XHBoxView",
+      "position": {
+        "x": 1978,
+        "y": 1007,
+        "width": 33,
+        "height": 20
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XDivider",
+      "position": {
+        "x": 1991,
+        "y": 1007,
+        "width": 1,
+        "height": 20
+      },
+      "value": ""
+    },
+    {
+      "depth": 20,
+      "control_type": "ButtonControl",
+      "name": "发送",
+      "automation_id": "",
+      "class_name": "mmui::XOutlineButton",
+      "position": {
+        "x": 2012,
+        "y": 1002,
+        "width": 70,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 21,
+      "control_type": "TextControl",
+      "name": "发送",
+      "automation_id": "",
+      "class_name": "mmui::XTextView",
+      "position": {
+        "x": 2032,
+        "y": 1007,
+        "width": 30,
+        "height": 20
+      },
+      "value": ""
+    },
+    {
+      "depth": 16,
+      "control_type": "ButtonControl",
+      "name": "展开",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 2060,
+        "y": 950,
+        "width": 32,
+        "height": 32
+      },
+      "value": ""
+    },
+    {
+      "depth": 17,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 2060,
+        "y": 950,
+        "width": 32,
+        "height": 32
+      },
+      "value": ""
+    },
+    {
+      "depth": 18,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 2060,
+        "y": 950,
+        "width": 32,
+        "height": 32
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1353,
+        "y": 361,
+        "width": 753,
+        "height": 581
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::MessageView",
+      "position": {
+        "x": 1353,
+        "y": 361,
+        "width": 753,
+        "height": 581
+      },
+      "value": ""
+    },
+    {
+      "depth": 16,
+      "control_type": "ListControl",
+      "name": "消息",
+      "automation_id": "chat_message_list",
+      "class_name": "mmui::RecyclerListView",
+      "position": {
+        "x": 1353,
+        "y": 361,
+        "width": 753,
+        "height": 581
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "ThumbControl",
+      "name": "(无名称)",
+      "automation_id": "qt_splithandle_",
+      "class_name": "QSplitterHandle",
+      "position": {
+        "x": 1353,
+        "y": 940,
+        "width": 753,
+        "height": 6
+      },
+      "value": ""
+    },
+    {
+      "depth": 8,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 1052,
+        "y": 301,
+        "width": 300,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 9,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatMasterView",
+      "position": {
+        "x": 1052,
+        "y": 301,
+        "width": 300,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 10,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XVBoxView",
+      "position": {
+        "x": 1052,
+        "y": 301,
+        "width": 300,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 11,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 1052,
+        "y": 301,
+        "width": 300,
+        "height": 60
+      },
+      "value": ""
+    },
+    {
+      "depth": 12,
+      "control_type": "ButtonControl",
+      "name": "快捷操作",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1302,
+        "y": 313,
+        "width": 35,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 13,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1307,
+        "y": 318,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1307,
+        "y": 318,
+        "width": 25,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 12,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XSearchField",
+      "position": {
+        "x": 1067,
+        "y": 313,
+        "width": 225,
+        "height": 35
+      },
+      "value": ""
+    },
+    {
+      "depth": 13,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1077,
+        "y": 321,
+        "width": 20,
+        "height": 20
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1077,
+        "y": 321,
+        "width": 20,
+        "height": 20
+      },
+      "value": ""
+    },
+    {
+      "depth": 13,
+      "control_type": "EditControl",
+      "name": "搜索",
+      "automation_id": "",
+      "class_name": "mmui::XValidatorTextEdit",
+      "position": {
+        "x": 1102,
+        "y": 318,
+        "width": 185,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "qt_scrollarea_viewport",
+      "class_name": "QWidget",
+      "position": {
+        "x": 1102,
+        "y": 318,
+        "width": 185,
+        "height": 25
+      },
+      "value": ""
+    },
+    {
+      "depth": 12,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XDivider",
+      "position": {
+        "x": 1052,
+        "y": 360,
+        "width": 300,
+        "height": 1
+      },
+      "value": ""
+    },
+    {
+      "depth": 11,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 1052,
+        "y": 361,
+        "width": 300,
+        "height": 693
+      },
+      "value": ""
+    },
+    {
+      "depth": 12,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XView",
+      "position": {
+        "x": 1052,
+        "y": 361,
+        "width": 300,
+        "height": 693
+      },
+      "value": ""
+    },
+    {
+      "depth": 13,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::ChatSessionList",
+      "position": {
+        "x": 1052,
+        "y": 361,
+        "width": 300,
+        "height": 693
+      },
+      "value": ""
+    },
+    {
+      "depth": 14,
+      "control_type": "ListControl",
+      "name": "会话",
+      "automation_id": "session_list",
+      "class_name": "mmui::XTableView",
+      "position": {
+        "x": 1052,
+        "y": 361,
+        "width": 300,
+        "height": 693
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "【润华乾泰大厦】美团拼好饭群\n拼好饭福利官: [小程序] 大牌奶茶3.9元起❗\n15:06\n",
+      "automation_id": "session_item_【润华乾泰大厦】美团拼好饭群",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 323,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "子白\n\n\n",
+      "automation_id": "session_item_子白",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 405,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "微信支付\n\n\n",
+      "automation_id": "session_item_微信支付",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 486,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "拼好饭-拼拼\n\n\n",
+      "automation_id": "session_item_拼好饭-拼拼",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 567,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "拼好饭-饭饭\n\n\n",
+      "automation_id": "session_item_拼好饭-饭饭",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 648,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "姐\n\n\n",
+      "automation_id": "session_item_姐",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 730,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "拼好饭福利官\n\n\n",
+      "automation_id": "session_item_拼好饭福利官",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 811,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "二班王宇航\n\n\n",
+      "automation_id": "session_item_二班王宇航",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 892,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 15,
+      "control_type": "ListItemControl",
+      "name": "拼好饭福利官\n\n\n",
+      "automation_id": "session_item_拼好饭福利官",
+      "class_name": "mmui::ChatSessionCell",
+      "position": {
+        "x": 1052,
+        "y": 973,
+        "width": 300,
+        "height": 81
+      },
+      "value": ""
+    },
+    {
+      "depth": 8,
+      "control_type": "ThumbControl",
+      "name": "(无名称)",
+      "automation_id": "MainView.main_window_corner_view.MainView.main_window_main_splitter_view.main_window_sub_splitter_view.qt_splithandle_",
+      "class_name": "QSplitterHandle",
+      "position": {
+        "x": 1350,
+        "y": 301,
+        "width": 6,
+        "height": 753
+      },
+      "value": ""
+    },
+    {
+      "depth": 2,
+      "control_type": "ToolBarControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::TitleBar",
+      "position": {
+        "x": 1882,
+        "y": 261,
+        "width": 230,
+        "height": 40
+      },
+      "value": ""
+    },
+    {
+      "depth": 3,
+      "control_type": "ButtonControl",
+      "name": "置顶",
+      "automation_id": "",
+      "class_name": "mmui::PinnedButton",
+      "position": {
+        "x": 1892,
+        "y": 261,
+        "width": 55,
+        "height": 40
+      },
+      "value": ""
+    },
+    {
+      "depth": 4,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1905,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1905,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 3,
+      "control_type": "ButtonControl",
+      "name": "最小化",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 1947,
+        "y": 261,
+        "width": 55,
+        "height": 40
+      },
+      "value": ""
+    },
+    {
+      "depth": 4,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 1960,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 1960,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 3,
+      "control_type": "ButtonControl",
+      "name": "最大化",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 2002,
+        "y": 261,
+        "width": 55,
+        "height": 40
+      },
+      "value": ""
+    },
+    {
+      "depth": 4,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 2015,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 2015,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 3,
+      "control_type": "ButtonControl",
+      "name": "关闭",
+      "automation_id": "",
+      "class_name": "mmui::XButton",
+      "position": {
+        "x": 2057,
+        "y": 261,
+        "width": 55,
+        "height": 40
+      },
+      "value": ""
+    },
+    {
+      "depth": 4,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XIcon",
+      "position": {
+        "x": 2070,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 5,
+      "control_type": "ButtonControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "mmui::XImage",
+      "position": {
+        "x": 2070,
+        "y": 266,
+        "width": 30,
+        "height": 30
+      },
+      "value": ""
+    },
+    {
+      "depth": 2,
+      "control_type": "GroupControl",
+      "name": "(无名称)",
+      "automation_id": "",
+      "class_name": "QWidget",
+      "position": {
+        "x": 2111,
+        "y": 1058,
+        "width": 1,
+        "height": 1
+      },
+      "value": ""
+    }
+  ],
+  "special_controls": {
+    "buttons": [
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "微信",
+        "automation_id": "",
+        "class_name": "mmui::XTabBarItem",
+        "position": {
+          "x": 977,
+          "y": 381,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 7,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 388,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "通讯录",
+        "automation_id": "",
+        "class_name": "mmui::XTabBarItem",
+        "position": {
+          "x": 977,
+          "y": 441,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 7,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 448,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "收藏",
+        "automation_id": "",
+        "class_name": "mmui::XTabBarItem",
+        "position": {
+          "x": 977,
+          "y": 501,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 7,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 508,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "朋友圈",
+        "automation_id": "",
+        "class_name": "mmui::XTabBarItem",
+        "position": {
+          "x": 977,
+          "y": 561,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 7,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 568,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "视频号",
+        "automation_id": "",
+        "class_name": "mmui::XTabBarItem",
+        "position": {
+          "x": 977,
+          "y": 621,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 7,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 628,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "搜一搜",
+        "automation_id": "",
+        "class_name": "mmui::XTabBarItem",
+        "position": {
+          "x": 977,
+          "y": 681,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 7,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 688,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "小程序面板",
+        "automation_id": "",
+        "class_name": "mmui::XTabBarItem",
+        "position": {
+          "x": 977,
+          "y": 741,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 7,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 748,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "手机",
+        "automation_id": "MainView.main_tabbar.tabbar_handoff",
+        "class_name": "mmui::HandoffTabbarView",
+        "position": {
+          "x": 977,
+          "y": 935,
+          "width": 75,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 6,
+        "control_type": "ButtonControl",
+        "name": "手机",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 992,
+          "y": 935,
+          "width": 45,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 8,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 942,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "更多",
+        "automation_id": "MainView.main_tabbar.tabbar_setting",
+        "class_name": "mmui::MainTabBarSettingView",
+        "position": {
+          "x": 992,
+          "y": 995,
+          "width": 45,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 6,
+        "control_type": "ButtonControl",
+        "name": "更多",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 992,
+          "y": 995,
+          "width": 45,
+          "height": 45
+        },
+        "value": ""
+      },
+      {
+        "depth": 8,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1000,
+          "y": 1002,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 24,
+        "control_type": "ButtonControl",
+        "name": "聊天记录",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1945,
+          "y": 312,
+          "width": 32,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 26,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1950,
+          "y": 317,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 24,
+        "control_type": "ButtonControl",
+        "name": "从手机导入聊天记录",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1977,
+          "y": 312,
+          "width": 20,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 26,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1980,
+          "y": 317,
+          "width": 12,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 23,
+        "control_type": "ButtonControl",
+        "name": "语音通话",
+        "automation_id": "voip_button",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 2007,
+          "y": 312,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 25,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 2012,
+          "y": 317,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 22,
+        "control_type": "ButtonControl",
+        "name": "聊天信息",
+        "automation_id": "content_view.top_content_view.title_h_view.right_v_view.right_content_h_view.right_content_v_view.right_ui_.more_button",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 2052,
+          "y": 312,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 24,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 2057,
+          "y": 317,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 18,
+        "control_type": "ButtonControl",
+        "name": "发送表情(Alt+E)",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1373,
+          "y": 1000,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 20,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1378,
+          "y": 1005,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 18,
+        "control_type": "ButtonControl",
+        "name": "发送收藏",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1418,
+          "y": 1000,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 20,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1423,
+          "y": 1005,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 18,
+        "control_type": "ButtonControl",
+        "name": "发送文件",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1463,
+          "y": 1000,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 20,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1468,
+          "y": 1005,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 19,
+        "control_type": "ButtonControl",
+        "name": "截图(Alt+A)",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1508,
+          "y": 1000,
+          "width": 32,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 21,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1513,
+          "y": 1005,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 19,
+        "control_type": "ButtonControl",
+        "name": "隐藏窗口截图",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1541,
+          "y": 1000,
+          "width": 20,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 21,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1543,
+          "y": 1005,
+          "width": 12,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 18,
+        "control_type": "ButtonControl",
+        "name": "语音输入文字(按住Ctrl+Win)",
+        "automation_id": "tool_bar_accessible.button",
+        "class_name": "mmui::VoiceInputView",
+        "position": {
+          "x": 1571,
+          "y": 1000,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 19,
+        "control_type": "ButtonControl",
+        "name": "语音输入文字(按住Ctrl+Win)",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1571,
+          "y": 1000,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 21,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1576,
+          "y": 1005,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 20,
+        "control_type": "ButtonControl",
+        "name": "发语音 ( 按住右 Alt )",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1943,
+          "y": 1000,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 22,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1948,
+          "y": 1005,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 20,
+        "control_type": "ButtonControl",
+        "name": "发送",
+        "automation_id": "",
+        "class_name": "mmui::XOutlineButton",
+        "position": {
+          "x": 2012,
+          "y": 1002,
+          "width": 70,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 16,
+        "control_type": "ButtonControl",
+        "name": "展开",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 2060,
+          "y": 950,
+          "width": 32,
+          "height": 32
+        },
+        "value": ""
+      },
+      {
+        "depth": 18,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 2060,
+          "y": 950,
+          "width": 32,
+          "height": 32
+        },
+        "value": ""
+      },
+      {
+        "depth": 12,
+        "control_type": "ButtonControl",
+        "name": "快捷操作",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1302,
+          "y": 313,
+          "width": 35,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 14,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1307,
+          "y": 318,
+          "width": 25,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 14,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1077,
+          "y": 321,
+          "width": 20,
+          "height": 20
+        },
+        "value": ""
+      },
+      {
+        "depth": 3,
+        "control_type": "ButtonControl",
+        "name": "置顶",
+        "automation_id": "",
+        "class_name": "mmui::PinnedButton",
+        "position": {
+          "x": 1892,
+          "y": 261,
+          "width": 55,
+          "height": 40
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1905,
+          "y": 266,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 3,
+        "control_type": "ButtonControl",
+        "name": "最小化",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 1947,
+          "y": 261,
+          "width": 55,
+          "height": 40
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 1960,
+          "y": 266,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 3,
+        "control_type": "ButtonControl",
+        "name": "最大化",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 2002,
+          "y": 261,
+          "width": 55,
+          "height": 40
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 2015,
+          "y": 266,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      },
+      {
+        "depth": 3,
+        "control_type": "ButtonControl",
+        "name": "关闭",
+        "automation_id": "",
+        "class_name": "mmui::XButton",
+        "position": {
+          "x": 2057,
+          "y": 261,
+          "width": 55,
+          "height": 40
+        },
+        "value": ""
+      },
+      {
+        "depth": 5,
+        "control_type": "ButtonControl",
+        "name": "(无名称)",
+        "automation_id": "",
+        "class_name": "mmui::XImage",
+        "position": {
+          "x": 2070,
+          "y": 266,
+          "width": 30,
+          "height": 30
+        },
+        "value": ""
+      }
+    ],
+    "lists": [
+      {
+        "depth": 16,
+        "control_type": "ListControl",
+        "name": "消息",
+        "automation_id": "chat_message_list",
+        "class_name": "mmui::RecyclerListView",
+        "position": {
+          "x": 1353,
+          "y": 361,
+          "width": 753,
+          "height": 581
+        },
+        "value": ""
+      },
+      {
+        "depth": 14,
+        "control_type": "ListControl",
+        "name": "会话",
+        "automation_id": "session_list",
+        "class_name": "mmui::XTableView",
+        "position": {
+          "x": 1052,
+          "y": 361,
+          "width": 300,
+          "height": 693
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "【润华乾泰大厦】美团拼好饭群\n拼好饭福利官: [小程序] 大牌奶茶3.9元起❗\n15:06\n",
+        "automation_id": "session_item_【润华乾泰大厦】美团拼好饭群",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 323,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "子白\n\n\n",
+        "automation_id": "session_item_子白",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 405,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "微信支付\n\n\n",
+        "automation_id": "session_item_微信支付",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 486,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "拼好饭-拼拼\n\n\n",
+        "automation_id": "session_item_拼好饭-拼拼",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 567,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "拼好饭-饭饭\n\n\n",
+        "automation_id": "session_item_拼好饭-饭饭",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 648,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "姐\n\n\n",
+        "automation_id": "session_item_姐",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 730,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "拼好饭福利官\n\n\n",
+        "automation_id": "session_item_拼好饭福利官",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 811,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "二班王宇航\n\n\n",
+        "automation_id": "session_item_二班王宇航",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 892,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      },
+      {
+        "depth": 15,
+        "control_type": "ListItemControl",
+        "name": "拼好饭福利官\n\n\n",
+        "automation_id": "session_item_拼好饭福利官",
+        "class_name": "mmui::ChatSessionCell",
+        "position": {
+          "x": 1052,
+          "y": 973,
+          "width": 300,
+          "height": 81
+        },
+        "value": ""
+      }
+    ],
+    "edit_boxes": [
+      {
+        "depth": 18,
+        "control_type": "EditControl",
+        "name": "拼好饭福利官 按住 Ctrl + Win 使用语音输入文字",
+        "automation_id": "chat_input_field",
+        "class_name": "mmui::ChatInputField",
+        "position": {
+          "x": 1378,
+          "y": 955,
+          "width": 708,
+          "height": 35
+        },
+        "value": ""
+      },
+      {
+        "depth": 13,
+        "control_type": "EditControl",
+        "name": "搜索",
+        "automation_id": "",
+        "class_name": "mmui::XValidatorTextEdit",
+        "position": {
+          "x": 1102,
+          "y": 318,
+          "width": 185,
+          "height": 25
+        },
+        "value": ""
+      }
+    ],
+    "texts": [
+      {
+        "depth": 21,
+        "control_type": "TextControl",
+        "name": "拼好饭福利官",
+        "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.big_title_line_h_view",
+        "class_name": "mmui::XHBoxView",
+        "position": {
+          "x": 1373,
+          "y": 317,
+          "width": 105,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 22,
+        "control_type": "TextControl",
+        "name": "拼好饭福利官",
+        "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.big_title_line_h_view.current_chat_name_label",
+        "class_name": "mmui::XTextView",
+        "position": {
+          "x": 1373,
+          "y": 317,
+          "width": 105,
+          "height": 25
+        },
+        "value": ""
+      },
+      {
+        "depth": 22,
+        "control_type": "TextControl",
+        "name": "@美团拼好饭",
+        "automation_id": "content_view.top_content_view.title_h_view.left_v_view.left_content_v_view.left_ui_.openim_name_view.current_chat_openim_name",
+        "class_name": "mmui::XTextView",
+        "position": {
+          "x": 1488,
+          "y": 318,
+          "width": 91,
+          "height": 21
+        },
+        "value": ""
+      },
+      {
+        "depth": 21,
+        "control_type": "TextControl",
+        "name": "发送",
+        "automation_id": "",
+        "class_name": "mmui::XTextView",
+        "position": {
+          "x": 2032,
+          "y": 1007,
+          "width": 30,
+          "height": 20
+        },
+        "value": ""
+      }
+    ]
+  },
+  "chat_list": [
+    {
+      "name": "【润华乾泰大厦】美团拼好饭群\n拼好饭福利官: [小程序] 大牌奶茶3.9元起❗\n15:06\n",
+      "automation_id": "session_item_【润华乾泰大厦】美团拼好饭群",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "子白\n\n\n",
+      "automation_id": "session_item_子白",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "微信支付\n\n\n",
+      "automation_id": "session_item_微信支付",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "拼好饭-拼拼\n\n\n",
+      "automation_id": "session_item_拼好饭-拼拼",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "拼好饭-饭饭\n\n\n",
+      "automation_id": "session_item_拼好饭-饭饭",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "姐\n\n\n",
+      "automation_id": "session_item_姐",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "拼好饭福利官\n\n\n",
+      "automation_id": "session_item_拼好饭福利官",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "二班王宇航\n\n\n",
+      "automation_id": "session_item_二班王宇航",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "拼好饭福利官\n\n\n",
+      "automation_id": "session_item_拼好饭福利官",
+      "children_count": 0,
+      "children_details": []
+    }
+  ]
+}
