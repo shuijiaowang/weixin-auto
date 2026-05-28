@@ -227,7 +227,7 @@ def interactive_menu(wechat: WeChatAutomation):
     print("\n交互菜单：输入数字执行，q 退出")
     print("1) 搜索用户/群")
     print("2) 输入对话内容并回车发送")
-    print("3) (预留)")
+    print("3) 粘贴文件并回车发送")
     print("4) (预留)")
     print("5) (预留)\n")
 
@@ -266,7 +266,13 @@ def interactive_menu(wechat: WeChatAutomation):
                 wechat.input_text_and_enter(text)
             continue
 
-        if cmd in {"3", "4", "5"}:
+        if cmd == "3":
+            file_path = input("请输入要发送的文件完整路径：").strip()
+            if file_path:
+                wechat.paste_file_and_enter(file_path)
+            continue
+
+        if cmd in {"4", "5"}:
             print(f"{cmd} 功能未实现，等待后续需求。")
             continue
 
@@ -276,12 +282,13 @@ def main():
     parser = argparse.ArgumentParser(description="微信 UI 自动化测试")
     parser.add_argument(
         "--mode",
-        choices=["interactive", "export", "ctrl-f-search", "type-enter"],
+        choices=["interactive", "export", "ctrl-f-search", "type-enter", "paste-file"],
         default="interactive",
-        help="运行模式：interactive=交互选择并点击进入；export=直接导出控件；ctrl-f-search=Ctrl+F 搜索后导出控件；type-enter=输入文字并按回车",
+        help="运行模式：interactive=交互选择并点击进入；export=直接导出控件；ctrl-f-search=Ctrl+F 搜索后导出控件；type-enter=输入文字并按回车；paste-file=剪贴板粘贴文件并回车发送",
     )
     parser.add_argument("--keyword", default="拼好饭", help="ctrl-f-search 模式下的搜索关键字")
     parser.add_argument("--text", default="", help="type-enter 模式下要输入的文字（留空则交互输入）")
+    parser.add_argument("--file", default="", help="paste-file 模式下要发送的文件完整路径")
     args = parser.parse_args()
 
     wechat = WeChatAutomation()
@@ -304,6 +311,13 @@ def main():
             text = input("请输入要输入的文字：").strip()
         if text:
             wechat.input_text_and_enter(text)
+        return
+    elif args.mode == "paste-file":
+        file_path = (args.file or "").strip()
+        if not file_path:
+            file_path = input("请输入要发送的文件完整路径：").strip()
+        if file_path:
+            wechat.paste_file_and_enter(file_path)
         return
     else:
         print("\n开始导出所有可见数据...\n")

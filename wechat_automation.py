@@ -2,9 +2,12 @@
 微信自动化核心模块
 基于 uiautomation 库实现微信的自动化操作
 """
+import os
 import time
 import uiautomation as auto
 from typing import Optional, List
+import ctypes
+from ctypes import wintypes
 from config import WECHAT_WINDOW_NAME, TIMEOUT, SLEEP_TIME, DEBUG
 
 
@@ -324,6 +327,137 @@ class WeChatAutomation:
         except Exception as e:
             if DEBUG:
                 print(f"[错误] 输入并回车时出错: {e}")
+            return False
+
+    def set_clipboard_file(self, file_path: str) -> bool:
+        """
+        将文件放入 Windows 剪贴板（CF_HDROP，等价于“复制文件”）。
+        按你的要求：不做额外兜底/校验；传入即认为是有效文件路径。
+        """
+        try:
+            CF_HDROP = 15
+            GMEM_MOVEABLE = 0x0002
+            kernel32 = ctypes.windll.kernel32
+            user32 = ctypes.windll.user32
+
+            # 64-bit 句柄/指针：必须声明 WinAPI 签名，否则 ctypes 会按 32-bit c_int 传参导致 OverflowError
+            kernel32.GlobalAlloc.argtypes = [wintypes.UINT, ctypes.c_size_t]
+            kernel32.GlobalAlloc.restype = wintypes.HGLOBAL
+            kernel32.GlobalFree.argtypes = [wintypes.HGLOBAL]
+            kernel32.GlobalFree.restype = wintypes.HGLOBAL
+            kernel32.GlobalLock.argtypes = [wintypes.HGLOBAL]
+            kernel32.GlobalLock.restype = ctypes.c_void_p
+            kernel32.GlobalUnlock.argtypes = [wintypes.HGLOBAL]
+            kernel32.GlobalUnlock.restype = wintypes.BOOL
+
+            user32.OpenClipboard.argtypes = [wintypes.HWND]
+            user32.OpenClipboard.restype = wintypes.BOOL
+            user32.CloseClipboard.argtypes = []
+            user32.CloseClipboard.restype = wintypes.BOOL
+            user32.EmptyClipboard.argtypes = []
+            user32.EmptyClipboard.restype = wintypes.BOOL
+            user32.SetClipboardData.argtypes = [wintypes.UINT, wintypes.HANDLE]
+            user32.SetClipboardData.restype = wintypes.HANDLE
+
+            class POINT(ctypes.Structure):
+                _fields_ = [("x", wintypes.LONG), ("y", wintypes.LONG)]
+
+            class DROPFILES(ctypes.Structure):
+                _fields_ = [
+                    ("pFiles", wintypes.DWORD),
+                    ("pt", POINT),
+                    ("fNC", wintypes.BOOL),
+                    ("fWide", wintypes.BOOL),
+                ]
+
+            normalized = os.path.normpath(file_path)
+            files = (normalized + "\0\0").encode("utf-16le")
+
+            dropfiles = DROPFILES()
+            dropfiles.pFiles = ctypes.sizeof(DROPFILES)
+            dropfiles.pt = POINT(0, 0)
+            dropfiles.fNC = 0
+            dropfiles.fWide = 1
+
+            total_size = ctypes.sizeof(DROPFILES) + len(files)
+            hglobal = kernel32.GlobalAlloc(GMEM_MOVEABLE, total_size)
+            if not hglobal:
+                raise RuntimeError("GlobalAlloc failed")
+
+            locked_ptr = kernel32.GlobalLock(hglobal)
+            if not locked_ptr:
+                kernel32.GlobalFree(hglobal)
+                raise RuntimeError("GlobalLock failed")
+
+            try:
+                base = int(locked_ptr)
+                ctypes.memmove(base, ctypes.addressof(dropfiles), ctypes.sizeof(DROPFILES))
+                ctypes.memmove(base + ctypes.sizeof(DROPFILES), files, len(files))
+            finally:
+                kernel32.GlobalUnlock(hglobal)
+
+            if not user32.OpenClipboard(None):
+                kernel32.GlobalFree(hglobal)
+                raise RuntimeError("OpenClipboard failed")
+
+            try:
+                if not user32.EmptyClipboard():
+                    kernel32.GlobalFree(hglobal)
+                    raise RuntimeError("EmptyClipboard failed")
+                if not user32.SetClipboardData(CF_HDROP, hglobal):
+                    kernel32.GlobalFree(hglobal)
+                    raise RuntimeError("SetClipboardData failed")
+                # 成功后 hglobal 所有权交给系统；不要 Free
+                hglobal = None
+            finally:
+                try:
+                    user32.CloseClipboard()
+                except Exception:
+                    pass
+
+            return True
+        except Exception as e:
+            if DEBUG:
+                print(f"[错误] 写入剪贴板失败: {e}")
+            return False
+
+    def paste_file_and_enter(self, file_path: str) -> bool:
+        """
+        复制文件到剪贴板 -> 点击微信输入框 -> Ctrl+V 粘贴 -> Enter 发送
+        """
+        if not self.window:
+            return False
+
+        try:
+            if not self.set_clipboard_file(file_path):
+                return False
+
+            self._activate_window()
+            time.sleep(0.2)
+
+            input_box = self.window.EditControl(AutomationId="chat_input_field", searchDepth=20)
+            if not input_box.Exists(1):
+                input_box = self.window.EditControl(searchDepth=15)
+
+            if not input_box.Exists(3):
+                if DEBUG:
+                    print("[失败] 未找到聊天输入框")
+                return False
+
+            input_box.Click()
+            time.sleep(max(SLEEP_TIME * 0.5, 0.2))
+
+            input_box.SendKeys("{Ctrl}V")
+            time.sleep(max(SLEEP_TIME * 0.8, 0.3))
+            input_box.SendKeys("{Enter}")
+            time.sleep(max(SLEEP_TIME * 0.8, 0.3))
+
+            if DEBUG:
+                print(f"[成功] 已粘贴文件并回车发送: {file_path}")
+            return True
+        except Exception as e:
+            if DEBUG:
+                print(f"[错误] 粘贴文件并发送时出错: {e}")
             return False
         
         try:
