@@ -1,0 +1,76 @@
+{
+  "export_time": "2026-05-28 15:19:05",
+  "window_info": {
+    "title": "微信",
+    "class": "mmui::MainWindow",
+    "rectangle": {
+      "left": 2913,
+      "top": 200,
+      "width": 878,
+      "height": 639
+    }
+  },
+  "control_tree": [],
+  "special_controls": {
+    "buttons": [],
+    "lists": [],
+    "edit_boxes": [],
+    "texts": []
+  },
+  "chat_list": [
+    {
+      "name": "互联网的搬砖工  微信版\n已置顶\n\n\n",
+      "automation_id": "session_item_互联网的搬砖工  微信版",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "【润华乾泰大厦】美团拼好饭群\n拼好饭福利官: [小程序] 大牌奶茶3.9元起❗\n15:06\n",
+      "automation_id": "session_item_【润华乾泰大厦】美团拼好饭群",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "拼好饭福利官\n\n\n",
+      "automation_id": "session_item_拼好饭福利官",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "子白\n\n\n",
+      "automation_id": "session_item_子白",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "文件传输助手\n\n\n",
+      "automation_id": "session_item_文件传输助手",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "美团外卖多重福利群185017\n\n\n消息免打扰\n",
+      "automation_id": "session_item_美团外卖多重福利群185017",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "B【青岛农业大学西苑校区】美团拼好饭群\n\n\n消息免打扰\n",
+      "automation_id": "session_item_B【青岛农业大学西苑校区】美团拼好饭群",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "微信支付\n\n\n",
+      "automation_id": "session_item_微信支付",
+      "children_count": 0,
+      "children_details": []
+    },
+    {
+      "name": "拼好饭-拼拼\n\n\n",
+      "automation_id": "session_item_拼好饭-拼拼",
+      "children_count": 0,
+      "children_details": []
+    }
+  ]
+}
