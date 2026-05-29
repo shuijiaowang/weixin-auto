@@ -1,0 +1,56 @@
+{
+  "time": "2026-05-29T10:11:03",
+  "processes": [
+    {
+      "pid": 8076,
+      "wmi": {
+        "pid": 8076,
+        "qt": {},
+        "command_line": "\"D:\\Program Files\\Tencent\\Weixin\\Weixin.exe\" --user-lib-dir=\"D:\\Program Files\\Tencent\\Weixin\\4.1.10.24\" --no-sandbox --type=wxocr --app-path=\"C:\\Users\\LY\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\WeChatOcr\\8082\\extracted\" --mojo-platform-channel-handle=3872"
+      },
+      "top_windows": []
+    },
+    {
+      "pid": 17064,
+      "wmi": {
+        "pid": 17064,
+        "qt": {},
+        "command_line": "\"D:\\Program Files\\Tencent\\Weixin\\Weixin.exe\" "
+      },
+      "top_windows": [
+        {
+          "name": "Weixin",
+          "class_name": "mmui::MainWindow",
+          "children": 2
+        }
+      ]
+    },
+    {
+      "pid": 26832,
+      "wmi": {
+        "pid": 26832,
+        "qt": {},
+        "command_line": "\"D:\\Program Files\\Tencent\\Weixin\\Weixin.exe\" --user-lib-dir=\"D:\\Program Files\\Tencent\\Weixin\\4.1.10.24\" --no-sandbox --type=wxplayer --app-path=\"C:\\Users\\LY\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\WeChatPlayer\\5067\\extracted\" --mojo-platform-channel-handle=5228"
+      },
+      "top_windows": []
+    },
+    {
+      "pid": 28992,
+      "wmi": {
+        "pid": 28992,
+        "qt": {},
+        "command_line": "\"D:\\Program Files\\Tencent\\Weixin\\Weixin.exe\" --user-lib-dir=\"D:\\Program Files\\Tencent\\Weixin\\4.1.10.24\" --no-sandbox --type=wxpublic --app-path=\"D:\\Program Files\\Tencent\\Weixin\\4.1.10.24\" --mojo-platform-channel-handle=5064"
+      },
+      "top_windows": []
+    },
+    {
+      "pid": 31116,
+      "wmi": {
+        "pid": 31116,
+        "qt": {},
+        "command_line": "\"D:\\Program Files\\Tencent\\Weixin\\Weixin.exe\" --user-lib-dir=\"D:\\Program Files\\Tencent\\Weixin\\4.1.10.24\" --no-sandbox --type=wxutility --app-path=\"C:\\Users\\LY\\AppData\\Roaming\\Tencent\\xwechat\\xplugin\\plugins\\WeChatUtility\\6028\\extracted\" --mojo-platform-channel-handle=5404"
+      },
+      "top_windows": []
+    }
+  ]
+}
